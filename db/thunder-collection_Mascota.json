@@ -1,0 +1,49 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascota",
+    "dateExported": "2024-02-09T17:57:54.003Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "23270de5-6196-4aa6-a71b-514bf93ea8f7",
+            "colId": "6c0d6584-729a-4b82-881c-0af44d24a4a1",
+            "containerId": "",
+            "name": "mascotaPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-09T16:58:01.729Z",
+            "modified": "2024-02-09T17:55:24.921Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "73204cd6-e3f3-4558-8e3b-268d203f7c81",
+            "colId": "6c0d6584-729a-4b82-881c-0af44d24a4a1",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-09T17:01:04.042Z",
+            "modified": "2024-02-09T17:56:59.022Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9e83e239-7143-4be2-81b4-ca8e667d172d",
+            "colId": "6c0d6584-729a-4b82-881c-0af44d24a4a1",
+            "containerId": "",
+            "name": "getMascotaByid",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T17:01:16.523Z",
+            "modified": "2024-02-09T17:01:16.524Z",
+            "headers": []
+        }
+    ]
+}

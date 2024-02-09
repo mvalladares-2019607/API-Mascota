@@ -1,10 +1,10 @@
 const { response, json } = require('express');
-const bcryptjs = require('bcryptjs');
+
 const Mascota = require('../models/mascotas');
 
 const mascotasGet = async (req, res = response) =>{
     const { limite, desde } = req.query;
-    const query = { estado: true}; 
+    const query = { }; 
 
     const [total, mascotas] = await Promise.all([
         Mascota.countDocuments(query),

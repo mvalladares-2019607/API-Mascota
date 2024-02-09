@@ -10,7 +10,7 @@ const MascotaSchema = Schema ({
         required: [true, 'La raza es indispensable']
     }, 
     edad: {
-        type: Integer, 
+        type: String, 
         required: [true, 'La edad es indispensable']
     }, 
     color: {

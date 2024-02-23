@@ -1,10 +1,9 @@
 const { response, json } = require('express');
-
 const Mascota = require('../models/mascotas');
 
 const mascotasGet = async (req, res = response) =>{
     const { limite, desde } = req.query;
-    const query = { }; 
+    const query = { estado: true};
 
     const [total, mascotas] = await Promise.all([
         Mascota.countDocuments(query),

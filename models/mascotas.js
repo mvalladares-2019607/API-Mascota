@@ -20,6 +20,10 @@ const MascotaSchema = Schema ({
     tamaño: {
         type: String, 
         required: [true, 'El tamaño es necesario']
+    },
+    estado:{
+        type: Boolean,
+        default: true
     }
 });
 

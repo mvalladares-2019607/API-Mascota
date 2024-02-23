@@ -31,7 +31,7 @@ const mascotasPut = async (req, res) => {
     const { id } =  req.params; 
     const { _id, nombre, raza, edad, color, tamaño} = req.body;
     
-    await Mascota.findByIdAndUpdate(id, resto);
+    await Mascota.findByIdAndUpdate(id );
     const mascota = await Mascota.findOne({_id: id})
 
     res.status(200).json({
